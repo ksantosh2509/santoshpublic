@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-07T17:03:27 IST" name="Group-Suite" finished-at="2022-04-07T17:03:28 IST" duration-ms="141">
+    <groups>
+      <group name="regression">
+        <method signature="TestngGroups.test()[pri:1, instance:com.selenium.test.testing.TestngGroups@65f095f8]" name="test" class="com.selenium.test.testing.TestngGroups"/>
+        <method signature="TestngGroups.test2()[pri:4, instance:com.selenium.test.testing.TestngGroups@65f095f8]" name="test2" class="com.selenium.test.testing.TestngGroups"/>
+        <method signature="TestngGroups.test3()[pri:3, instance:com.selenium.test.testing.TestngGroups@65f095f8]" name="test3" class="com.selenium.test.testing.TestngGroups"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TestngGroups.test()[pri:1, instance:com.selenium.test.testing.TestngGroups@65f095f8]" name="test" class="com.selenium.test.testing.TestngGroups"/>
+        <method signature="TestngGroups.test2()[pri:4, instance:com.selenium.test.testing.TestngGroups@65f095f8]" name="test2" class="com.selenium.test.testing.TestngGroups"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-04-07T17:03:27 IST" name="Regression-Group" finished-at="2022-04-07T17:03:28 IST" duration-ms="141">
+      <class name="com.selenium.test.testing.TestngGroups">
+        <test-method signature="test()[pri:1, instance:com.selenium.test.testing.TestngGroups@65f095f8]" started-at="2022-04-07T17:03:28 IST" name="test" description="Arthemetic Ope" finished-at="2022-04-07T17:03:28 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test3()[pri:3, instance:com.selenium.test.testing.TestngGroups@65f095f8]" started-at="2022-04-07T17:03:28 IST" name="test3" description="Assert Equal" finished-at="2022-04-07T17:03:28 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test2()[pri:4, instance:com.selenium.test.testing.TestngGroups@65f095f8]" started-at="2022-04-07T17:03:28 IST" name="test2" finished-at="2022-04-07T17:03:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.selenium.test.testing.TestngGroups -->
+    </test> <!-- Regression-Group -->
+  </suite> <!-- Group-Suite -->
+</testng-results>
